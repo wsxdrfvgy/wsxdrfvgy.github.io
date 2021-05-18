@@ -1,0 +1,49 @@
+body {
+  	background-image: url('canvas.png');
+	padding: 30px;
+	max-width: 800px;
+	margin: auto;
+}
+#logoContainer{
+	width: 70px;
+	float: left;
+}
+#picLogo{
+	width: 70px;
+}
+#hContainer{
+	float: left;
+	margin-left: 20px;
+}
+
+header, section{
+	float: left;
+	width: 600px;
+	padding: 0 50px;
+}
+article{
+	float: left;
+	width: 100%;
+}
+.colorForArticle{
+	padding: 0 50px;
+	background-color: lightgreen;
+	width: 500px;
+}
+.tile{
+	float: left;
+	text-align: center;
+	width: 32%;
+	max-width: 200px;
+	height: 250px;
+}
+.tile img{
+	width: 100%;
+}
+.tile:hover{
+	border: 1px solid black;
+	height: 248px;
+}
+
+
+
